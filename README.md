@@ -73,4 +73,5 @@ It is a python program that can be run from a terminal with `python similarSeque
 More info with `-h`
 
 ## frecuencias
+Several methods used by remaster (see https://github.com/rodrigoSantamaria/rodritools/)
 
