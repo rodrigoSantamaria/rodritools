@@ -4,6 +4,9 @@ Python methods for genomic sequence manipulation.
 The package consists on several python scripts with methods ready to use. Methods are commented within each script, describing arguments and output.
 A minimal description of what you can find on each script can be found below
 
+## Licensing
+rodritools is distributed unter a GPL3.0 license. Free software is the only good software.
+
 ## Install
 You can just download the whole package to your `destination_folder`. On python, you can just do something like:
 ```
