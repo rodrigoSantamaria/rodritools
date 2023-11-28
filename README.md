@@ -1,5 +1,6 @@
 # rodritools
-Python methods for genomic sequence manipulations
+Python methods for genomic sequence manipulation.
+
 The package consists on several python scripts with methods ready to use. Methods are commented within each script, describing arguments and output.
 A minimal description of what you can find on each script can be found below
 
