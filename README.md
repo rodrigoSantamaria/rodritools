@@ -46,8 +46,31 @@ Can be used from a terminal with `python bwsearch.py` (use `h` for options)
 You can also use the methods, which are available at `bsearchMethods.py`
 
 ## dnContent
+Given a fasta file and a list of dinucleotides, it reports the number of time that each dinucleotid appears on each sequence on the fasta, and returns it as a tsv file.
+*(It might work for k-mers with k>2, but I have not tested it)*
+
+It is a python program that can be run from a terminal with `python dnContent.py`
+It makes use of the methods in `bioio` and `bioseq`
+More info with `-h`
+
+## gcContent
+As dnContent, but only for GC content (**not** the dinucleotide GpC, just the number of Gs and Cs)
 
 ## dnWindows
+It sweeps over sequences (`-fasta`) in search of windows of a given length (`-window`) where certain dinucleotides (`-dnlist`) have more occurrences that a given `-threshold`. The occurrences are saved as positions on the specificed `-out` file.
+*(It might work for k-mers with k>2, but I have not tested it)*
+
+It is a python program that can be run from a terminal with `python dnWindows.py`
+More info with `-h`
+
+## gcWindows
+As dnWindows, but only for GC content (**not** the dinucleotide GpC, just the number of Gs and Cs)
+
+
+## similarSequences
+Given a `-fasta`, returns sequence pairs with homology above `-t` threshold
+It is a python program that can be run from a terminal with `python similarSequences.py`
+More info with `-h`
 
 ## frecuencias
 
