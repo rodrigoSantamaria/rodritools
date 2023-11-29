@@ -73,6 +73,7 @@ As dnWindows, but only for GC content (**not** the dinucleotide GpC, just the nu
 
 ## similarSequences
 Given a `-fasta`, returns sequence pairs with homology above `-t` threshold
+
 It is a python program that can be run from a terminal with `python similarSequences.py`
 More info with `-h`
 
