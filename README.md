@@ -50,7 +50,7 @@ Can be used from a terminal with `python bwsearch.py` (use `h` for options)
 You can also use the methods, which are available at `bsearchMethods.py`
 
 ## dnContent
-Given a fasta file and a list of dinucleotides, it reports the number of time that each dinucleotid appears on each sequence on the fasta, and returns it as a tsv file.
+Given a fasta file and a list of dinucleotides, it reports the occurrences of each dinucleotide on each fasta sequence, and returns it as a tsv file.
 *(It might work for k-mers with k>2, but I have not tested it)*
 
 It is a python program that can be run from a terminal with `python dnContent.py`
