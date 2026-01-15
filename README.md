@@ -28,6 +28,8 @@ Analogously, there are methods for writing some of these formats.
 
 There are also some conversion methods to convert bed to fasta or fasta to bed.
 
+Dependencies: re, csv, numpy, time
+
 ## bioseq
 Methods for basic **seq**uence manipulation, such as:
 * Reverse complement sequences
@@ -41,11 +43,15 @@ Methods for basic **seq**uence manipulation, such as:
 * Sequence randomization (either as random positions from reference genomes, or synthetic sequences based on k-mer frequencies)
 * Sequence periodicity
 
+  Dependencies: numpy, time, random, itertools, scipy, matplotlib
+
 ## biosearch
 Methods for **search**es over sequences and other data
 * Search for genes in GFFs, and obtain their sequences, given the reference genome
 * Search for descriptions in GO
 * Search for a given motif on sequences (this last one is ready to be used in a terminal with `python biosearch.py`)
+
+  Dependencies: re, string, numpy, bioseq, bioio
 
 ## bwsearch
 Given a fasta file, and a sequence, it returns all the positions where the sequence is in the fasta, allowing up to d mutations.
