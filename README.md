@@ -7,6 +7,9 @@ A minimal description of what you can find on each script can be found below
 ## Licensing
 `rodritools` is distributed under a GPL3.0 license. Free software makes the world better.
 
+## Citation
+https://doi.org/10.5281/zenodo.18214174
+
 ## Install
 You can just download the whole package to your `destination_folder`. On python, you can just do something like:
 ```
