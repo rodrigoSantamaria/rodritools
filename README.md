@@ -6,6 +6,7 @@ A minimal description of what you can find on each script can be found below
 
 ## Licensing
 `rodritools` is distributed under a GPL3.0 license. Free software makes the world better.
+Full text of the license is available [here](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 ## Citation
 https://doi.org/10.5281/zenodo.18214174
